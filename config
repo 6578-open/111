@@ -1,0 +1,21 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/range-h/sample-python.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+	vscode-merge-base = origin/main
+	vscode-merge-base = origin/main
+[branch "feature/add_file_a"]
+	vscode-merge-base = origin/main
+[branch "feature//a_edit"]
+	vscode-merge-base = origin/main
+[branch "feature/a_edit"]
+	vscode-merge-base = origin/main
